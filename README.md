@@ -24,23 +24,23 @@
 
 `$ pkg install -y git python`
 
-`$ git clone https://github.com/th3unkn0n/TeleGram-Scraper.git`
+`$ git clone https://github.com/adrianeth/telegram-scraper-message-sender.git`
 
-`$ cd TeleGram-Scraper`
+`$ cd telegram-scraper-message-sender`
 
 * Install Requierments
 
-`$ python3 setup.py -i`
+`$ python setup.py -i`
 
 * Setup configuration file (API ID and Hash ID)
 
-`$ python3 setup.py -c`
+`$ python setup.py -c`
 
 * Collect user data
 
-`$ python3 scraper.py`
+`$ python scraper.py`
 
 * (members.csv will be generated upon scraping completion)
 * Send mass DMs to collected targets
 
-`$ python3 dmsbot.py members.csv`
+`$ python dmsbot.py members.csv`
