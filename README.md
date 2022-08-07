@@ -36,11 +36,10 @@
 
 `$ python setup.py -c`
 
-* Collect user data
+* Collect user data <i>(members.csv will be generated upon scraping completion)</i>
 
 `$ python scraper.py`
 
-* (members.csv will be generated upon scraping completion)
 * Send mass DMs to collected targets
 
 `$ python dmsbot.py members.csv`
